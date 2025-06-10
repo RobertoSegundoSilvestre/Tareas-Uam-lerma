@@ -13,7 +13,7 @@ let frase7=" "
 let frase8=" "
 let frase9=" "
 let frase10=" "
-//
+//Fondo de la frase
 let cuadro1= false;
 let cuadro2= false;
 let cuadro3= false;
@@ -24,6 +24,8 @@ let cuadro7= false;
 let cuadro8= false;
 let cuadro9= false;
 let cuadro10= false;
+//
+let estado = 0;
 //
 function draw() {
   background(0)
@@ -154,4 +156,40 @@ function keyPressed() {
   frase10="Sigue firme."
   cuadro10= true;
   }
+if (key ==='a'){
+    estado = 0;
+
+    frase1 = " "
+    cuadro1 = false;
+
+    frase2 = " "
+    cuadro2 = false;
+
+    frase3 = " "
+    cuadro3 = false;
+
+    frase4 = " "
+    cuadro4 = false;
+
+    frase5 = " "
+    cuadro5 = false;
+
+    frase6 = " "
+    cuadro6 = false;
+
+    frase7 = " "
+    cuadro7 = false;
+
+    frase8 = " "
+    cuadro8 = false;
+
+    frase9 = " "
+    cuadro9 = false;
+
+    frase10 = " "
+    cuadro10 = false;
+}
+
+
+  
 }
