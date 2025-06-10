@@ -189,7 +189,4 @@ if (key ==='a'){
     frase10 = " "
     cuadro10 = false;
 }
-
-
-  
 }
