@@ -1,12 +1,12 @@
 body{
     margin:10px 40x;
     background-color: rgb(0, 0, 0);
-    padding: 40px 20px;
+    padding: 40px 80px;
 }
 
 p{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 24px;
 
 }
 /*Titulo 1 */
@@ -83,9 +83,139 @@ h3 {
 .column ul li::marker {
     color: #a20000; /* punto naranja */
 }
-img {
-    display: block;
-    margin: 30px auto;
-    max-width: 100%;
-    border-radius: 5px;
+
+.titulocontenedor6 {
+    text-align: center;
+}
+.titulo6 {
+    font-size: 30px;
+    color: #ffffff;
+    border-bottom: 2px solid #a20000;
+    padding-bottom: 0.2rem;
+    display: inline-block;
+}
+
+.Graficos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.Graficos figure {
+  flex: 0 0 680px;
+  max-width: 45%;
+  margin: 0;
+  text-align: center;
+}
+
+.Graficos img {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+}
+
+.Graficos figcaption {
+  color: #ccc;
+  font-size: 1.1em;
+  margin-top: 8px;
+}
+
+h7, h8, h9, h10, h11 {
+   font-size: 32px;
+    color: #ffffff;
+}
+
+.TouchDesigner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.TouchDesigner figure {
+  flex: 0 0 680px;
+  max-width: 45%;
+  margin: 0;
+  text-align: center;
+}
+
+.TouchDesigner img {
+  width: 100%;
+  max-width: 680px;
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+}
+
+.TouchDesigner figcaption {
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+
+.IA {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.IA figure {
+  flex: 0 0 680px;
+  max-width: 45%;
+  margin: 0;
+  text-align: center;
+}
+
+.IA img {
+  width: 100%;
+  max-width: 680px;
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+}
+
+.IA figcaption {
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+
+.Edición {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.Edición figure {
+  flex: 0 0 680px;
+  max-width: 45%;
+  margin: 0;
+  text-align: center;
+}
+
+.Edición img {
+  width: 100%;
+  max-width: 680px;
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+}
+
+.Edición figcaption {
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 8px;
 }
