@@ -1,5 +1,5 @@
 body{
-    margin:10px 40x;
+    margin:10px 40px;
     background-color: rgb(0, 0, 0);
     padding: 40px 80px;
 }
@@ -120,15 +120,48 @@ h3 {
 }
 
 .Graficos figcaption {
-  color: #ccc;
+  color: #ceb9b9;
   font-size: 1.1em;
   margin-top: 8px;
 }
 
-h7, h8, h9, h10, h11 {
-   font-size: 32px;
+.apartados {
+    font-size: 32px;
     color: #ffffff;
+    margin-top: 40px;
 }
+
+
+.MediaPipe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.MediaPipe figure {
+  flex: 0 0 680px;
+  max-width: 45%;
+  margin: 0;
+  text-align: center;
+}
+
+.MediaPipe img {
+  width: 100%;
+  max-width: 680px;
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+}
+
+.MediaPipe figcaption {
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+
 
 .TouchDesigner {
   display: flex;
@@ -159,6 +192,7 @@ h7, h8, h9, h10, h11 {
   font-size: 0.9em;
   margin-top: 8px;
 }
+
 
 .IA {
   display: flex;
@@ -218,4 +252,125 @@ h7, h8, h9, h10, h11 {
   color: #ccc;
   font-size: 0.9em;
   margin-top: 8px;
+}
+
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+#legales {
+    flex: 1 1 300px;
+    padding: 10px;
+}
+
+#redes {
+    flex: 1 1 300px;
+    padding: 10px;
+}
+
+.sociales {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sociales li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sociales a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.sociales a:hover {
+    color: #cccccc;
+}
+
+.iconos_r {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+
+
+footer {
+  background-color: #222;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+#legales {
+  text-align: center;
+  flex: 1 1 300px;
+  font-size: 1.2rem;
+}
+
+#redes {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.sociales {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sociales li {
+  text-align: center;
+}
+
+.sociales a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px; /* espacio entre ícono y texto */
+}
+
+.sociales a:hover {
+  opacity: 0.8;
+}
+
+.iconos_r {
+  width: 40px;
+  height: auto;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+figure {
+  margin-bottom: 0;
 }
