@@ -512,3 +512,61 @@ figure {
   margin-bottom: 0;
 }
 
+/*Movil*/
+
+@media (max-width: 600px) {
+  body {
+    margin: 5px 10px;
+    padding: 15px 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .titulo1, .titulo2, .titulo3, .titulo6, .titulo12, .titulo13 {
+    font-size: 28px;
+  }
+
+  .titulo7, .titulo8, .titulo9, .titulo10, .titulo11 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .grid-columns {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .Graficos figure,
+  .MediaPipe figure,
+  .TouchDesigner figure,
+  .IA figure,
+  .Edición figure,
+  .Coloquio figure,
+  .Mapeo figure,
+  .Piezafinal figure {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .Graficos img,
+  .MediaPipe img,
+  .TouchDesigner img,
+  .IA img,
+  .Edición img,
+  .Coloquio img,
+  .Mapeo img,
+  .Piezafinal img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  #redes {
+    justify-content: center;
+  }
+}
