@@ -6,7 +6,7 @@ body{
 
 p{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
 
 }
 /*Titulo 1 */
@@ -89,6 +89,7 @@ h3 {
 
 .titulocontenedor6 {
     text-align: center;
+    padding-top: 25px;
 }
 .titulo6 {
     font-size: 40px;
@@ -151,6 +152,7 @@ h3 {
     border-bottom: 2px solid #a20000;
     padding-bottom: 0.2rem;
     display: inline-block;
+    margin-top: 35px;
 }
 
 
@@ -196,6 +198,7 @@ h3 {
     border-bottom: 2px solid #a20000;
     padding-bottom: 0.2rem;
     display: inline-block;
+    margin-top: 35px;
 }
 
 .TouchDesigner {
@@ -239,6 +242,8 @@ h3 {
     border-bottom: 2px solid #a20000;
     padding-bottom: 0.2rem;
     display: inline-block;
+    margin-top: 35px;
+
 }
 
 .IA {
@@ -281,6 +286,8 @@ h3 {
     border-bottom: 2px solid #a20000;
     padding-bottom: 0.2rem;
     display: inline-block;
+    margin-top: 35px;
+
 }
 
 .Edición {
@@ -323,6 +330,7 @@ h3 {
     padding-bottom: 0.5rem;
     margin-top: 25px;
     display: inline-block;
+    margin-top: 35px;
 }
 /**/
 
@@ -392,6 +400,7 @@ h3 {
 
 .titulocontenedor13 {
     text-align: center;
+    padding-top: 25px;
 }
 .titulo13 {
     font-size: 40px;
@@ -400,6 +409,7 @@ h3 {
     padding-bottom: 0.5rem;
     margin-top: 35px;
     display: inline-block;
+    margin-top: 35px;
 }
 
 /**/
@@ -433,7 +443,8 @@ h3 {
 .Piezafinal figcaption {
   color: #d6a4a4;
   font-size: 0.9em;
-  margin-top: 8px;
+  padding-top: 8px;
+
 }
 
 /**/
@@ -447,7 +458,7 @@ footer {
   flex-wrap: wrap;
   gap: 40px;
   margin-top: 40px;
-  padding-top: 20px;
+
 }
 
 #legales {
@@ -494,7 +505,7 @@ footer {
 
 section:last-of-type {
   margin-bottom: 0;
-  padding-bottom: 0;
+
 }
 
 figure {
